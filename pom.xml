@@ -112,16 +112,20 @@
 					<artifactId>spring-boot-maven-plugin</artifactId>
 				</plugin>
 				<plugin>
-                <groupId>org.sonarsource.scanner.maven</groupId>
-                <artifactId>sonar-maven-plugin</artifactId>
-                <version>3.4.0.905</version>
-            </plugin>
-            <plugin>
-          <groupId>org.eclipse.m2e</groupId>
-          <artifactId>lifecycle-mapping</artifactId>
-          <version>1.0.0</version>
-          
-        </plugin>
+
+					<groupId>org.sonarsource.scanner.maven</groupId>
+
+					<artifactId>sonar-maven-plugin</artifactId>
+					<version>3.3.0.603</version>
+					<executions>
+						<execution>
+							<phase>verify</phase>
+							<goals>
+								<goal>sonar</goal>
+							</goals>
+						</execution>
+					</executions>
+				</plugin>
 			</plugins>
 		</pluginManagement>
 	</build>
