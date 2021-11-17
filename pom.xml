@@ -20,8 +20,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<sonar.jacoco.reportPaths>${basedir}\\target\\jacoco.exec</sonar.jacoco.reportPaths>
-        <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
+		<sonar.projectKey>grocery</sonar.projectKey>
 		<java.version>1.8</java.version>
 	</properties>
 
